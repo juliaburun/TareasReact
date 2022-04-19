@@ -137,4 +137,24 @@ select {
   pointer-events: none;
 }
 
+@media  (max-width: 600px) {
+  
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    max-width: 120px;
+  }
+
+  .select {
+    max-width: 120px;
+  }
+
+  .select::after {
+    max-width: 10px;
+  }
+
+}
 
